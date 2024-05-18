@@ -3,7 +3,7 @@ import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 
 import Searchbar from "@/components/shared/Searchbar";
-import Pagination from "@/components/shared/pagination";
+import Pagination from "@/components/shared/Pagination";
 
 
 import { fetchUser } from "@/lib/actions/user.actions";
